@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Odin Project Calculator</title>
+    <link href="./styles.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div id="calculatorBody">
         <div id="outputWindow">
-            <div class="previousOperand"></div>
-            <div class="currentOperand"></div>
+            <div data-previous-operand class="previousOperand"></div>
+            <div data-current-operand class="currentOperand"></div>
         </div>
-        <button class="clearKey" id="allClearKey">AC</button>
-        <button class="clearKey" id="deleteKey">DEL</button>
-        <button class="operatorKey" id="divisionKey">÷</button>
-        <button class="numberKey" id="oneKey">1</button>
-        <button class="numberKey" id="twoKey">2</button>
-        <button class="numberKey" id="threeKey">3</button>
-        <button class="operatorKey" id="multiplyKey">*</button>
-        <button class="numberKey" id="fourKey">4</button>
-        <button class="numberKey" id="fiveKey">5</button>
-        <button class="numberKey" id="sixKey">6</button>
-        <button class="operatorKey" id="subtractKey">-</button>
-        <button class="numberKey" id="seventKey">7</button>
-        <button class="numberKey" id="eightKey">8</button>
-        <button class="numberKey" id="nineKey">9</button>
-        <button class="operatorKey" id="additionKey">+</button>
-        <button class="operatorKey" id="decimalKey">.</button>
-        <button class="numberKey" id="zeroKey">0</button>
-        <button class="operatorKey" id="equalsKey">=</button>
+        <button data-all-clear class="clearKey" id="allClearKey" name="spanTwo">AC</button>
+        <button data-delete class="clearKey" id="deleteKey">DEL</button>
+        <button data-operation class="operatorKey" id="divisionKey">÷</button>
+        <button data-number class="numberKey" id="oneKey">1</button>
+        <button data-number class="numberKey" id="twoKey">2</button>
+        <button data-number class="numberKey" id="threeKey">3</button>
+        <button data-operation class="operatorKey" id="multiplyKey">*</button>
+        <button data-number class="numberKey" id="fourKey">4</button>
+        <button data-number class="numberKey" id="fiveKey">5</button>
+        <button data-number class="numberKey" id="sixKey">6</button>
+        <button data-operation class="operatorKey" id="subtractKey">-</button>
+        <button data-number class="numberKey" id="seventKey">7</button>
+        <button data-number class="numberKey" id="eightKey">8</button>
+        <button data-number class="numberKey" id="nineKey">9</button>
+        <button data-operation class="operatorKey" id="additionKey">+</button>
+        <button data-number class="numberKey" id="decimalKey">.</button>
+        <button data-number class="numberKey" id="zeroKey">0</button>
+        <button data-equals class="operatorKey" id="equalsKey" name="spanTwo">=</button>
 
     </div>
 </body>
